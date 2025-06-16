@@ -75,12 +75,12 @@ It’s like if **Artisan had a caffeine overdose** and decided to **automate you
 
 ### **Option 1: The "I’m in a Hurry" Method**  
 ```bash
-composer global require laris/cli
+composer require larapire/laris
 ```
 
 ### **Option 2: The "I’m in a Hurry" Method**  
 ```bash  
-git clone https://github.com/itashia/laris-cli.git && cd laris  
+git@github.com:LaraPire/laris.git  && cd laris  
 ```  
 
 ### **Option 3: The "I Like Aliases" Method**  
