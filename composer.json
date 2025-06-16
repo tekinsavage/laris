@@ -1,7 +1,7 @@
 {
-  "name": "laris/cli",
+  "name": "larapire/laris",
   "description": "A supercharged Laravel development CLI tool for faster workflow",
-  "keywords": ["laravel", "laris", "cli", "tool"],
+  "keywords": ["laravel", "laris", "cli", "tool", "larapire"],
   "license": "MIT",
   "authors": [
     {
