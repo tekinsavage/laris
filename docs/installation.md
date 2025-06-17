@@ -74,9 +74,9 @@ Laris automates all that with a single command — and if you're feeling spicy, 
 
 Laris has commands like:
 
-* `laris ai:make:event`
-* `laris ai:test:generate`
-* `laris ai:generate:readme`
+* `laris laris:ai:make:event`
+* `laris laris:ai:test:generate`
+* `laris laris:ai:generate:readme`
 
 Just give it a hint, and Laris will code it for you. It’s like pair programming, minus the awkward small talk.
 
@@ -87,10 +87,10 @@ Just give it a hint, and Laris will code it for you. It’s like pair programmin
 Want to install additional modules? Just use:
 
 ```bash
-laris require something-cool
+laris laris:require something-cool
 ```
 
-(Seriously, try `laris require app` and see what happens.)
+(Seriously, try `laris laris:require app` and see what happens.)
 
 ---
 
