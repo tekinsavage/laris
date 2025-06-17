@@ -80,7 +80,7 @@ MIT – Do whatever you want, just give credit where it's due.
 ---
 
 ## 👉 Next Page
-[Continue to the description and installation page ➡️](./installation)
+[Continue to the description and installation page ➡️](https://larapire.github.io/laris/installation)
 
 <p align="center">
   <b>🚀 Powered by Laravel + AI = ❤️</b><br>
