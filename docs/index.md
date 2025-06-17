@@ -79,6 +79,9 @@ MIT – Do whatever you want, just give credit where it's due.
 
 ---
 
+## 👉 Next Page
+[Continue to the description and installation page ➡️](./installation.md)
+
 <p align="center">
   <b>🚀 Powered by Laravel + AI = ❤️</b><br>
   <sub>A project by <a href="https://github.com/larapire">Larapire</a></sub>
