@@ -1,4 +1,4 @@
-# 🚀 **LARIS** — The Ultimate Laravel Artisan Companion You Didn’t Know You Needed! 🎩✨  
+# **LARIS** - The Ultimate Laravel Artisan Companion You Didn’t Know You Needed!  
 
 
 
@@ -28,9 +28,9 @@
 ```
 ---
 
-## **🔥 What the Heck is Laris?**  
+# What the Heck is Laris?  
 
-Laris is **not just another CLI tool**—it’s **your Laravel Artisan on steroids** �💉.  
+Laris is **not just another CLI tool**—it’s **your Laravel Artisan on steroids**.  
 
 Tired of typing `php artisan` **a million times a day**?  
 Annoyed by forgetting command syntax **right after you Google it**?  
@@ -42,19 +42,19 @@ It’s like if **Artisan had a caffeine overdose** and decided to **automate you
 
 ---
 
-## **💎 Why Laris is the GOAT (Greatest Of All Time)**  
+# Why Laris is the GOAT (Greatest Of All Time) 
 
-✅ **Shorter Commands** – `laris` instead of `php artisan` (because laziness = efficiency).  
-✅ **Project Switching** – Jump between Laravel projects like a **multitasking wizard**.  
-✅ **Database Magic** – Run queries, fake data, and **play God with your DB**.  
-✅ **Deploy Like a Pro** – One command to **push, migrate, and flex**.  
-✅ **Git & Composer Shortcuts** – Because typing `git push origin main` is **so 2020**.  
-✅ **Backup & Docs** – Automate boring stuff **before you forget**.  
-✅ **Extensible AF** – Add your own commands and **make it yours**.  
+- Shorter Commands** – `laris` instead of `php artisan` (because laziness = efficiency).  
+- Project Switching** – Jump between Laravel projects like a **multitasking wizard**.  
+- Database Magic** – Run queries, fake data, and **play God with your DB**.  
+- Deploy Like a Pro** – One command to **push, migrate, and flex**.  
+- Git & Composer Shortcuts** – Because typing `git push origin main` is **so 2020**.  
+- Backup & Docs** – Automate boring stuff **before you forget**.  
+- Extensible AF** – Add your own commands and **make it yours**.  
 
 ---
 
-## **⚡ Laris in Action: The Cheat Sheet**  
+# Laris in Action: The Cheat Sheet
 
 | Command                  | What It Does (Because You’re Too Lazy to Guess) |  
 |--------------------------|------------------------------------------------|  
@@ -71,26 +71,32 @@ It’s like if **Artisan had a caffeine overdose** and decided to **automate you
 
 ---
 
-## **🚀 Installation: Get Laris in 3 Seconds**  
+# Installation: Get Laris in 3 Seconds 
 
-### **Option 1: The "I’m in a Hurry" Method**  
+### Option 1: The "I’m in a Hurry" Method
+
 ```bash
 composer require larapire/laris
 ```
 
-### **Option 2: The "I’m in a Hurry" Method**  
+### Option 2: The "I’m in a Hurry" Method 
+
 ```bash  
 git@github.com:LaraPire/laris.git  && cd laris  
 ```  
 
-### **Option 3: The "I Like Aliases" Method**  
-Add this to your `.bashrc` or `.zshrc`:  
+### Option 3: The "I Like Aliases" Method 
+
+Add this to your `.bashrc` or `.zshrc`: 
+
 ```bash  
 alias laris='php /path/to/laris/src/Application.php'  
 ```  
 
-### **Option 4: The "I Want Global Access" Method**  
+### Option 4: The "I Want Global Access" Method  
+
 Symlink it to `/usr/local/bin` (for **ultimate power**):  
+
 ```bash
 ln -s /path/to/laris/src/Application.php /usr/local/bin/laris  
 ```  
@@ -99,19 +105,21 @@ Now just type `laris` **anywhere, anytime**.
 
 ---
 
-## **🎮 Usage: How to Not Screw It Up**  
+# Usage: How to Not Screw It Up 
 
-1. **Navigate to a Laravel project** (or use `laris select` to pick one).  
-2. **Run commands like a pro**:  
+1. Navigate to a Laravel project (or use `laris select` to pick one).  
+2. Run commands like a pro:
+  
    ```bash  
    laris db list-tables   # See what’s in your DB  
    laris db fake-data     # Fill it with nonsense  
    laris deploy           # Ship it!  
-   ```  
-3. **Profit.** 💰  
+   ```
+   
+4. Profit. 
 
 
-### 🔧 AI-Powered Generators
+# AI-Powered Generators
 
 All AI-based commands follow this structure:
 
@@ -134,7 +142,7 @@ Each command will ask questions in your terminal and generate the appropriate La
 
 ---
 
-### 📦 Full Module Generation
+# Full Module Generation
 
 Generate a complete module (Model, Controller, Migration, etc.) using:
 
@@ -144,7 +152,7 @@ Generate a complete module (Model, Controller, Migration, etc.) using:
 
 ---
 
-### 📚 Documentation Commands
+# Documentation Commands
 
 Generate documentation and readme files easily:
 
@@ -155,7 +163,7 @@ Generate documentation and readme files easily:
 
 ---
 
-### ✅ Test Generation
+# Test Generation
 
 Automatically create test classes for your existing code:
 
@@ -165,7 +173,7 @@ Automatically create test classes for your existing code:
 
 ---
 
-### 🧠 Refactor Classes
+# Refactor Classes
 
 Refactor any PHP class using AI (SOLID, PSR-12, clean code):
 
@@ -175,7 +183,7 @@ Refactor any PHP class using AI (SOLID, PSR-12, clean code):
 
 ---
 
-### 🔧 Configuring AI
+# Configuring AI
 
 Before using AI commands, set your OpenRouter key:
 
@@ -185,7 +193,7 @@ Before using AI commands, set your OpenRouter key:
 
 ---
 
-## **🧑‍💻 For Nerds Who Love Code**  
+# For Nerds Who Love Code  
 
 Laris is built with:  
 - **Pure PHP OOP** (because we’re not animals)  
@@ -197,7 +205,7 @@ Want to **add a command**? Just drop a new class in `src/Commands/`.
 
 ---
 
-## **🤝 Contribute (Because Sharing is Caring)**  
+# Contribute (Because Sharing is Caring)
 
 1. **Fork it**  
 2. **Add a cool feature**  
@@ -206,22 +214,22 @@ Want to **add a command**? Just drop a new class in `src/Commands/`.
 
 ---
 
-## **📜 License**  
+# License
 
 MIT. Do whatever. Just don’t blame us if your DB explodes.  
 
 ---
 
-## **🎤 Final Words**  
+# Final Words 
 
 Laris exists because **typing `php artisan` is a crime against productivity**.  
 
 Now go **automate your workflow**, **impress your coworkers**, and **spend more time drinking coffee**.  
 
-**Happy coding!** 🚀🔥  
+Happy coding! 
 
 *(P.S. If you break something, just run `laris backup run` first. You’re welcome.)*  
 
 ---  
 
-Need **more details?** Check the `docs/` folder or **yell at us on GitHub**. 🎤💬
+Need **more details?** Check the `docs/` folder or **yell at us on GitHub**
