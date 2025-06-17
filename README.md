@@ -122,12 +122,12 @@ php laris laris:ai:make:{component}
 Examples:
 
 ```bash
-php laris laris:ai:make:controller
-php laris laris:ai:make:model
-php laris laris:ai:make:request
-php laris laris:ai:make:factory
-php laris laris:ai:make:migration
-php laris laris:ai:make:seeder
+~> laris laris:ai:make:controller
+~> laris laris:ai:make:model
+~> laris laris:ai:make:request
+~> laris laris:ai:make:factory
+~> laris laris:ai:make:migration
+~> laris laris:ai:make:seeder
 ```
 
 Each command will ask questions in your terminal and generate the appropriate Laravel file using OpenRouter AI.
@@ -139,7 +139,7 @@ Each command will ask questions in your terminal and generate the appropriate La
 Generate a complete module (Model, Controller, Migration, etc.) using:
 
 ```bash
-php laris laris:ai:generate:module
+~> laris laris:ai:generate:module
 ```
 
 ---
@@ -149,8 +149,8 @@ php laris laris:ai:generate:module
 Generate documentation and readme files easily:
 
 ```bash
-php laris laris:ai:generate:docs
-php laris laris:ai:generate:readme
+~> laris laris:ai:generate:docs
+~> laris laris:ai:generate:readme
 ```
 
 ---
@@ -160,7 +160,7 @@ php laris laris:ai:generate:readme
 Automatically create test classes for your existing code:
 
 ```bash
-php laris laris:ai:generate:test
+~> laris laris:ai:generate:test
 ```
 
 ---
@@ -170,7 +170,7 @@ php laris laris:ai:generate:test
 Refactor any PHP class using AI (SOLID, PSR-12, clean code):
 
 ```bash
-php laris laris:ai:refactor:class
+~> laris laris:ai:refactor:class
 ```
 
 ---
@@ -180,7 +180,7 @@ php laris laris:ai:refactor:class
 Before using AI commands, set your OpenRouter key:
 
 ```bash
-php laris laris:ai:config
+~> laris laris:ai:config
 ```
 
 ---
