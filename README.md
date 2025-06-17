@@ -44,13 +44,13 @@ It’s like if **Artisan had a caffeine overdose** and decided to **automate you
 
 # Why Laris is the GOAT (Greatest Of All Time) 
 
-- Shorter Commands** – `laris` instead of `php artisan` (because laziness = efficiency).  
-- Project Switching** – Jump between Laravel projects like a **multitasking wizard**.  
-- Database Magic** – Run queries, fake data, and **play God with your DB**.  
-- Deploy Like a Pro** – One command to **push, migrate, and flex**.  
-- Git & Composer Shortcuts** – Because typing `git push origin main` is **so 2020**.  
-- Backup & Docs** – Automate boring stuff **before you forget**.  
-- Extensible AF** – Add your own commands and **make it yours**.  
+- Shorter Commands – `laris` instead of `php artisan` (because laziness = efficiency).  
+- Project Switching – Jump between Laravel projects like a **multitasking wizard**.  
+- Database Magic – Run queries, fake data, and **play God with your DB**.  
+- Deploy Like a Pro – One command to **push, migrate, and flex**.  
+- Git & Composer Shortcuts – Because typing `git push origin main` is **so 2020**.  
+- Backup & Docs – Automate boring stuff **before you forget**.  
+- Extensible AF – Add your own commands and **make it yours**.  
 
 ---
 
