@@ -103,6 +103,6 @@ by [itarrshia](mailto:itarrshia@gmail.com)
 
 Happy hacking!
 <div class="nav-links">
-    <a href="./index.md">&larr; Back to Introduction</a>
-    <a href="./basic-description.html">Basic explanations and basic training &rarr;</a>
+    <a href="https://larapire.github.io/laris">&larr; Back to Introduction</a>
+    <a href="https://larapire.github.io/laris/basic-description">Basic explanations and basic training &rarr;</a>
 </div>
